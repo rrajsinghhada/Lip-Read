@@ -15,8 +15,9 @@ To construct this model, I utilized 1000+ videos of an individual articulating r
 ## Model Summary
 
 Model: "sequential"
+
 _________________________________________________________________
- Layer (type)                Output Shape              Param #   
+ Layer (type)                Output Shape              Param  
 =================================================================
  conv3d (Conv3D)             (None, 75, 46, 140, 128)  3584      
                                                                  
@@ -59,6 +60,7 @@ Total params: 8,471,924
 Trainable params: 8,471,924
 Non-trainable params: 0
 _________________________________________________________________
+
 
 ## Dependencies
 * Tensorflow 2.0+
