@@ -63,8 +63,8 @@ ___________________________________________________________________________
 
 1. Clone the project:
 ```
-$ git clone https://github.com/rrajsinghhada/Lip_Reading_app
-$ cd Lip_Reading_app
+$ git clone https://github.com/rrajsinghhada/Lip-Read
+$ cd Lip-Read
 ```
 2. Install the required dependencies by running the following command:
 ```
