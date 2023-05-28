@@ -16,9 +16,9 @@ To construct this model, I utilized videos of an individual articulating random 
 
 Model: "sequential"
 
-
+|     :---: | :---: | :---: | 
 | Layer (type)                       |   Output Shape             | Param #  |
-|             :---:                  |           :---:            |   :---:  | 
+| :---                               |   :---                     | :---     | 
 | conv3d (Conv3D)                    |   (None, 75, 46, 140, 128) | 3584     |                                                               
 | activation (Activation)            |   (None, 75, 46, 140, 128) | 0        |  
 | max_pooling3d (MaxPooling3D)       |   (None, 75, 23, 70, 128)  | 0        |                                                               
