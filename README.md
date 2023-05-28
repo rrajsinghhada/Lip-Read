@@ -16,39 +16,26 @@ To construct this model, I utilized videos of an individual articulating random 
 
 Model: "sequential"
 
-___________________________________________________________________________
- Layer (type)                       |   Output Shape             | Param # 
-===========================================================================
- conv3d (Conv3D)                    |   (None, 75, 46, 140, 128) | 3584      
-                                                                 
- activation (Activation)            |   (None, 75, 46, 140, 128) | 0         
-                                                                 
- max_pooling3d (MaxPooling3D)       |   (None, 75, 23, 70, 128)  | 0                                                       
-                                                                 
- conv3d_1 (Conv3D)                  |   (None, 75, 23, 70, 256)  | 884992    
-                                                                 
- activation_1 (Activation)          |   (None, 75, 23, 70, 256)  | 0         
-                                                                 
- max_pooling3d_1 (MaxPooling 3D)    |   (None, 75, 11, 35, 256)  | 0                                                                      
-                                                                 
- conv3d_2 (Conv3D)                  |   (None, 75, 11, 35, 75)   | 518475    
-                                                                 
- activation_2 (Activation)          |   (None, 75, 11, 35, 75)   | 0         
-                                                                 
- max_pooling3d_2 (MaxPooling 3D)    |   (None, 75, 5, 17, 75)    | 0                                                                   
-                                                                 
- time_distributed (TimeDistributed) |   (None, 75, 6375)         | 0                                                                 
-                                                                 
- bidirectional (Bidirectional)      |   (None, 75, 256)          | 6660096                                                              
-                                                                 
- dropout (Dropout)                  |   (None, 75, 256)          | 0         
-                                                                 
- bidirectional_1 (Bidirectional)    |   (None, 75, 256)          | 394240    
-                                                                                              
- dropout_1 (Dropout)                |   (None, 75, 256)          | 0         
-                                                                 
- dense (Dense)                      |   (None, 75, 41)           | 10537     
-                                                                 
+
+| Layer (type)                       |   Output Shape             | Param #  |
+|             :---:                  |           :---:            |   :---:  | 
+| conv3d (Conv3D)                    |   (None, 75, 46, 140, 128) | 3584     |                                                               
+| activation (Activation)            |   (None, 75, 46, 140, 128) | 0        |  
+| max_pooling3d (MaxPooling3D)       |   (None, 75, 23, 70, 128)  | 0        |                                                               
+| conv3d_1 (Conv3D)                  |   (None, 75, 23, 70, 256)  | 884992   |  
+| activation_1 (Activation)          |   (None, 75, 23, 70, 256)  | 0        |  
+| max_pooling3d_1 (MaxPooling 3D)    |   (None, 75, 11, 35, 256)  | 0        |                                                               
+| conv3d_2 (Conv3D)                  |   (None, 75, 11, 35, 75)   | 518475   |  
+| activation_2 (Activation)          |   (None, 75, 11, 35, 75)   | 0        |  
+| max_pooling3d_2 (MaxPooling 3D)    |   (None, 75, 5, 17, 75)    | 0        |                                                            
+| time_distributed (TimeDistributed) |   (None, 75, 6375)         | 0        |                                                          
+| bidirectional (Bidirectional)      |   (None, 75, 256)          | 6660096  |                                                             
+| dropout (Dropout)                  |   (None, 75, 256)          | 0        |  
+| bidirectional_1 (Bidirectional)    |   (None, 75, 256)          | 394240   |                
+| dropout_1 (Dropout)                |   (None, 75, 256)          | 0        |  
+| dense (Dense)                      |   (None, 75, 41)           | 10537    | 
+
+
 ===========================================================================
 Total params: 8,471,924
 Trainable params: 8,471,924
