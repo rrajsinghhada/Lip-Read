@@ -1,8 +1,9 @@
 # Lip_Reading_app
 
 ## End-to-End Sentence-level Lipreading
-<!-- <img src="./Decoder_in_action.gif" width="338"> -->
-
+Lip Read in Action
+<img src="./lip_read_720.gif" width="338">
+__________________________________________________________________________
 <img src="./App/animation.gif" width="338">
 
 ## Goal
