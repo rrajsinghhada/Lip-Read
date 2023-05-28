@@ -1,4 +1,4 @@
-# Lip_Reading_app
+# Lip-Read
 
 ## End-to-End Sentence-level Lipreading
 Lip Read in Action
@@ -80,7 +80,6 @@ ___________________________________________________________________________
 cd App 
 streamlit run streamlitapp.py
 ```
-
 
 ## Work in Progress
 This is a work in progress. Errors are to be expected.
