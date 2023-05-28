@@ -16,7 +16,6 @@ To construct this model, I utilized videos of an individual articulating random 
 
 Model: "sequential"
 
-|     :---: | :---: | :---: | 
 | Layer (type)                       |   Output Shape             | Param #  |
 | :---                               |   :---                     | :---     | 
 | conv3d (Conv3D)                    |   (None, 75, 46, 140, 128) | 3584     |                                                               
@@ -34,7 +33,6 @@ Model: "sequential"
 | bidirectional_1 (Bidirectional)    |   (None, 75, 256)          | 394240   |                
 | dropout_1 (Dropout)                |   (None, 75, 256)          | 0        |  
 | dense (Dense)                      |   (None, 75, 41)           | 10537    | 
-
 
 ===========================================================================
 Total params: 8,471,924
