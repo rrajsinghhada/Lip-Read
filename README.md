@@ -2,8 +2,9 @@
 
 ## End-to-End Sentence-level Lipreading
 Lip Read in Action
-<img src="./lip_read_720.gif" width="338">
 __________________________________________________________________________
+<img src="./lip_read_720.gif" width="500">
+
 <img src="./App/animation.gif" width="338">
 
 ## Goal
