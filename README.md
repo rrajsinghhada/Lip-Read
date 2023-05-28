@@ -1,6 +1,8 @@
 # Lip_Reading_app
 
 ## End-to-End Sentence-level Lipreading
+<!-- <img src="./Decoder_in_action.gif" width="338"> -->
+
 <img src="./App/animation.gif" width="338">
 
 ## Goal
@@ -68,8 +70,8 @@ pip install requirement.txt
 ```
 3. Run the Lip-reading_model_trainer.ipynb file
 ___________________________________________________________________________
-1. This file contains the command to download the data required to train the model and also the pretrained model.
-2. This file also contaiins the code to train the model.
+* This file contains the command to download the data required to train the model and also the pretrained model.
+* This file also contaiins the code to train the model.
 ___________________________________________________________________________
 4. Run the following command to deploy the model as local host
 ```
