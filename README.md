@@ -34,12 +34,33 @@ Model: "sequential"
 | dropout_1 (Dropout)                |   (None, 75, 256)          | 0        |  
 | dense (Dense)                      |   (None, 75, 41)           | 10537    | 
 
-===========================================================================
+___________________________________________________________________________
 Total params: 8,471,924
 Trainable params: 8,471,924
 Non-trainable params: 0
 ___________________________________________________________________________
 
+## Installation
+
+1. Clone the project:
+```
+$ git clone https://github.com/rrajsinghhada/Lip_Reading_app
+$ cd Lip_Reading_app
+```
+2. Install the required dependencies by running the following command:
+```
+pip install requirement.txt
+```
+3. Run the Lip-reading_model_trainer.ipynb file
+___________________________________________________________________________
+1. This file contains the command to download the data required to train the model and also the pretrained model.
+2. This file also contaiins the code to train the model.
+___________________________________________________________________________
+4. Run the following command to deploy the model as local host
+```
+cd App 
+streamlit run streamlitapp.py
+```
 
 ## Dependencies
 * Tensorflow 2.0+
