@@ -13,17 +13,17 @@ To construct this model, I utilized videos of an individual articulating random 
 
 ## Overview
 ___________________________________________________________________________
-I constructed a data pipeline that utilizes a data load function to retrieve videos and their respective alignments.
+* I constructed a data pipeline that utilizes a data load function to retrieve videos and their respective alignments.
 
-Constructed the vocab to change the allignments into tokens i.e. char to num and num to char for converting the data predicted back to character.
+* Constructed the vocab to change the allignments into tokens i.e. char to num and num to char for converting the data predicted back to character.
 
-Additionally, I created a vocabulary to convert alignments into tokens and also tokens back to character allowing the conversion of predicted data back to sentence.
+* Additionally, I created a vocabulary to convert alignments into tokens and also tokens back to character allowing the conversion of predicted data back to sentence.
 
-the video data underwent a process of frame extraction, followed by conversion into numpy arrays, enabling efficient data representation. Simultaneously, the alignments associated with the videos were tokenized, preparing them for model training and analysis.
+* The video data underwent a process of frame extraction, followed by conversion into numpy arrays, enabling efficient data representation. Simultaneously, the alignments associated with the videos were tokenized, preparing them for model training and analysis.
 
-To analyze the video frames, I employed a convolutional neural network, and further enhanced the model's training by incorporating bidirectional LSTMs within a powerful architecture.
+* To analyze the video frames, I employed a convolutional neural network, and further enhanced the model's training by incorporating bidirectional LSTMs within a powerful architecture.
 
-Then after training the model I used streamlit module of python to upload the model and videos to show the working of model on different model in real time.
+* Then after training the model I used streamlit module of python to upload the model and videos to show the working of model on different model in real time.
 ___________________________________________________________________________
 ## Model Summary
 
@@ -48,10 +48,12 @@ Model: "sequential"
 | dense (Dense)                      |   (None, 75, 41)           | 10537    | 
 
 ___________________________________________________________________________
-Total params: 8,471,924
-Trainable params: 8,471,924
-Non-trainable params: 0
+Total params: 8,471,924 | Trainable params: 8,471,924 | Non-trainable params: 0
 ___________________________________________________________________________
+
+## Dependencies
+* Tensorflow 2.0+
+* PIP (for package installation)
 
 ## Installation
 
@@ -74,10 +76,6 @@ ___________________________________________________________________________
 cd App 
 streamlit run streamlitapp.py
 ```
-
-## Dependencies
-* Tensorflow 2.0+
-* PIP (for package installation)
 
 
 ## Work in Progress
