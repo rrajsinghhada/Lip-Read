@@ -13,7 +13,7 @@ The objective was to develop a robust deep learning model capable of accurately 
 
 ## Data
 
-To construct this model, I utilized videos of an individual articulating random words. Subsequently, I employed alignments to precisely annotate the spoken content, which served as training data for the model.
+To construct this model, I utilised videos of an individual articulating random words. Subsequently, I employed alignments to precisely annotate the spoken content, which served as training data for the model.
 
 ## Overview
 ___________________________________________________________________________
